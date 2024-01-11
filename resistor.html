@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>EduWeb - The Best Program to Enroll for Exchange</title>
+  <meta name="title" content="EduWeb - The Best Program to Enroll for Exchange">
+  <meta name="description" content="This is an education html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-banner-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-1.svg">
+  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
+  
+  <style>
+ article {
+            max-width: 1500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+
+        h1, h2, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+			
+        }
+
+        h2 {
+            font-size: 24px;
+            margin-top: 30px;
+			
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+			
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+		h1 {
+            text-align: center;
+            color: #3498db;
+        }
+
+        .form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        input[type="button"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+			background-color: #53C798;
+        }
+
+        input[type="button"]:hover {
+            background-color: #53B798;
+        }
+		 .third-band {
+            display: none;
+        }
+		.result {
+            background-color: #ecf0f1;
+            padding: 10px;
+			color: black;
+            border-radius: 5px;
+            margin-top: 10px;
+			text-align: center;
+        }
+
+
+        
+
+  </style>
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="logo.png" class="logo">
+        <img src="logo.png" width="252" height="75" alt="EduWeb logo">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="wrapper">
+          <a href="logo.png" class="logo">
+            <img src="logo.png" width="162" height="50" alt="EduWeb logo">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#courses" class="navbar-link" data-nav-link>Courses</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <div class="header-actions">
+
+        <button class="header-action-btn" aria-label="toggle search" title="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="header-action-btn" aria-label="cart" title="Cart">
+          <ion-icon name="cart-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+        <a href="#" class="btn has-before">
+          <span class="span">Try for free</span>
+
+          <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+        </a>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+    <article class="article">
+        <h2>Introduction</h2>
+        <p>What is a resistor ? What does it do to my circuit ? Why are there many different types ? What do these colored bands mean ?
+
+I know , sometimes it can be hard to understand all of this.
+
+I was like you a couple of years ago, I didn't understand the resistor, and I didn't even know what is doing in a circuit.
+
+Well, here in this tutorial, I'm going to teach you everything you need to know about resistors.</p>
+
+        <h2>What is a resistor ?</h2>
+        <p>Resistor is a component that resists the current and makes it harder for electrons to flow through a material, so they add resistance to a circuit. Wait ... what is resistance ?
+
+Resistance is a measurement of how easily electrons can flow through a material, we measure it with ohms(Ω).
+
+Actually it's turns out that resistance is just a normal property of materials, take any conducting material and measure its resistance with a multimeter .
+
+All materials resists current flow to some drgree, there are materials that offer very low resistance like copper, gold and aluminium, and there are insulators, which presents high resistance and makes it so hard for electrons to flow, like paper, glass, wood, platic ..</p>
+        <img src="image1.jpg" alt="Image 1">
+
+        <h2>What does a resistor do to my circuit ?</h2>
+        <p>The resistor simply helps us control the voltage and current.
+
+For example if we take an LED and connect it to 9 V battery, it will shine for few seconds then it will be destroyed, that's because the battery push so many electrons through the LED that it breaks .
+
+How to avoid that ? use a resistor .
+
+After we place it in series, the resistor will heat reduce the current making our LED bright without been destroyed.</p>
+        <img src="image2.jpg" alt="Image 2">
+
+        
+		
+		
+		<h2>The color bands</h2>
+        <p>Resistors are the unsung heroes, and the key to understanding them lies in the rainbow of colors on their bodies. These bands are not mere decorations; they hold the keys to the resistor's resistance value, tolerance, and sometimes even its temperature coefficient.
+
+1. Significant Digits: The First Two Bands
+
+Imagine the first two bands on a resistor as the code to its heart. The colors reveal the significant digits of the resistance value. Each color represents a specific digit, from 0 (Black) to 9 (White).
+
+Black: 0
+Brown: 1
+Red: 2
+Orange: 3
+Yellow: 4
+Green: 5
+Blue: 6
+Violet: 7
+Gray: 8
+White: 9
+These two bands work in harmony, signifying the digits that define the resistor's core value.
+
+2. Multiplier Magic: The Third Band
+
+The third band, often a bit shy, holds the multiplier, telling us how to magnify the significance of the first two digits. It's like the secret code for exponential growth.
+
+Black: ×1
+Brown: ×10
+Red: ×100
+Orange: ×1,000
+Yellow: ×10,000
+Green: ×100,000
+Blue: ×1,000,000
+Violet: ×10,000,000
+So, if this band is Red, it's telling us to multiply the first two digits by 100. A touch of magic that takes us from tens to thousands.
+
+3. The Tolerance Tale: The Fourth Band
+
+Every resistor has its own level of tolerance, like a unique personality trait. The fourth band reveals how forgiving or precise the resistor's value is.
+
+Gold: ±5% (a perfectionist)
+Silver: ±10% (a realist)
+No color: ±20% (a free spirit)
+With Gold, it's like saying, "I'm 100 ohms, but I'm comfortable anywhere between 95 and 105 ohms." An adventurer with Silver, on the other hand, will say, "I'm 100 ohms, but I might wander off a bit between 90 and 110 ohms."
+
+4. The Temperature Touch: The Fifth Band (Optional)
+
+In some rare cases, a fifth band enters the stage, revealing how the resistor's value dances with temperature changes.
+
+Resistors come in all shapes and sizes, but their color code is a universal language that tells us who they are and what they can do. With this knowledge, you can decipher the secret of any resistor and understand its role in the grand orchestra of electronics.
+
+So, next time you encounter a resistor, remember that its colors hold the power to reveal its true essence, unlocking the world of electronic possibilities.</p>
+<h1 style="color: #53B798;">Resistor Color Code Calculator</h1>
+    <form class="form">
+	Bands:
+        <select id="bands" onchange="toggleThirdBand()">
+            <option value="4-bands">4 Bands</option>
+            <option value="5-bands">5 Bands</option>
+        </select><br>
+        First Band:
+        <select id="firstBand">
+            <option value="black">Black</option>
+            <option value="brown">Brown</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="violet">Violet</option>
+            <option value="gray">Gray</option>
+            <option value="white">White</option>
+        </select><br>
+
+        Second Band:
+        <select id="secondBand">
+            <option value="black">Black</option>
+            <option value="brown">Brown</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="violet">Violet</option>
+            <option value="gray">Gray</option>
+            <option value="white">White</option>
+        </select><br>
+		
+		<div id="thirdBand" class="third-band">
+            Third Band:
+            <select>
+                 <option value="black">Black</option>
+            <option value="brown">Brown</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="violet">Violet</option>
+            <option value="gray">Gray</option>
+            <option value="white">White</option>
+            </select><br>
+        </div>
+
+        Multiplier:
+        <select id="multiplier">
+            <option value="black">Black</option>
+            <option value="brown">Brown</option>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="violet">Violet</option>
+        </select><br>
+
+        Tolerance:
+        <select id="tolerance">
+            <option value="gold">Gold (±5%)</option>
+            <option value="silver">Silver (±10%)</option>
+            <option value="none">None (±20%)</option>
+        </select><br>
+
+        <input type="button" value="Calculate" onclick="calculateResistance()">
+    </form>
+
+    <div id="result" class="result" style="display: none;"></div>
+    </article>
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.png')">
+
+    <div class="footer-top section">
+      <div class="container grid-list">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo-light.svg" width="162" height="50" alt="EduWeb logo">
+          </a>
+
+          <p class="footer-brand-text">
+            Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor incidid unt labore dolore.
+          </p>
+
+          <div class="wrapper">
+            <span class="span">Add:</span>
+
+            <address class="address">70-80 Upper St Norwich NR2</address>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Call:</span>
+
+            <a href="tel:+011234567890" class="footer-link">+01 123 4567 890</a>
+          </div>
+
+          <div class="wrapper">
+            <span class="span">Email:</span>
+
+            <a href="mailto:info@eduweb.com" class="footer-link">info@eduweb.com</a>
+          </div>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Online Platform</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Courses</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Instructor</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Events</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Instructor Profile</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Purchase Guide</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Links</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Gallery</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">News & Articles</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ's</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Sign In/Registration</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Coming Soon</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Contacts</p>
+
+          <p class="footer-list-text">
+            Enter your email address to register to our newsletter subscription
+          </p>
+
+          <form action="" class="newsletter-form">
+            <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+
+            <button type="submit" class="btn has-before">
+              <span class="span">Subscribe</span>
+
+              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          Copyright 2022 All Rights Reserved by <a href="#" class="copyright-link">codewithsadee</a>
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back top top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="script.js" defer></script>
+  <script>
+        
+        const colorCode = {
+            'black': 0,
+            'brown': 1,
+            'red': 2,
+            'orange': 3,
+            'yellow': 4,
+            'green': 5,
+            'blue': 6,
+            'violet': 7,
+            'gray': 8,
+            'white': 9,
+            'gold': -1,
+            'silver': -2,
+            'none': -3,
+        };
+
+        function toggleThirdBand() {
+            const isFourBands = document.getElementById('bands').value === '4-bands';
+            const thirdBandElement = document.getElementById('thirdBand');
+            thirdBandElement.style.display = isFourBands ? 'none' : 'block';
+        }
+
+        function calculateResistance() {
+            const isFourBands = document.getElementById('bands').value === '4-bands';
+            const firstBand = document.getElementById('firstBand').value.toLowerCase();
+            const secondBand = document.getElementById('secondBand').value.toLowerCase();
+            const multiplier = document.getElementById('multiplier').value.toLowerCase();
+            const tolerance = document.getElementById('tolerance').value.toLowerCase();
+            const toleranceValues = {
+                '-1': '±5%',
+                '-2': '±10%',
+                '-3': '±20%',
+            };
+
+            const minResistance = (colorCode[firstBand] * 10 + colorCode[secondBand]) * Math.pow(10, colorCode[multiplier]);
+            const maxResistance = isFourBands ? minResistance : minResistance * 10;
+            const toleranceText = toleranceValues[colorCode[tolerance]];
+
+            const resultElement = document.getElementById('result');
+            resultElement.innerHTML = `Resistance Value:  ${maxResistance} ohms  <span class="tolerance">(${toleranceText})</span>`;
+            resultElement.style.display = 'block';
+        }
+    </script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
